@@ -47,4 +47,20 @@ rm readme.md -- remove a file.
 
 git commit -am "comments" --- moving to staging area and commiting the data
 
+git reset HEAD README.md -- reverts to modified stage.
+
+git checkout -- README.md
+
+git help log -- help command
+
+git log --oneline --graph --decorate --all
+
+git config --global alias.hist "log --oneline --graph --decorate --all"
+
+git config --global --list
+
+git hist
+
+git hist -- GitHubNotes
+
 
