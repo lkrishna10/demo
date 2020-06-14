@@ -28,3 +28,20 @@ git status  -- provides the status on the files.
 git add README.md  -- add the file to staging
 
 git commit -m "First file commited"
+
+rm -rf .git
+
+git init .
+
+git add .  -- command to add all files to github
+
+git commit -- will invoke the editor for comments and add all files into the commit folder.
+
+git log -- to get the logs for the folder
+
+git show -- all commits and diff, to get out press q
+
+git ls-files -- shows all tracked files
+
+rm readme.md -- remove a file.
+
