@@ -45,3 +45,6 @@ git ls-files -- shows all tracked files
 
 rm readme.md -- remove a file.
 
+git commit -am "comments" --- moving to staging area and commiting the data
+
+
