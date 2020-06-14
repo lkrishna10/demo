@@ -1,0 +1,30 @@
+config --global user.name "kkssp"
+config --global user.email "lkrishna10@gmail.com"
+git config --global -e
+
+git config --global diff.tool p4merge
+
+git config --global difftool.p4merge.path "C:\Program Files\Perforce\p4merge.exe"
+git config --global difftool.prompt false
+
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.parth "C:\Program Files\Perforce\p4merge.exe"
+git config --global mergetool.prompt false
+
+pwd -- shows the current working directory
+
+ls - al -- list all th folders
+
+mkdir projects    --- createst the folder called projects
+
+cd projects
+clear
+
+create a new project in git
+git init demo
+
+git status  -- provides the status on the files.
+
+git add README.md  -- add the file to staging
+
+git commit -m "First file commited"
