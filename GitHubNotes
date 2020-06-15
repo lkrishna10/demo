@@ -81,5 +81,5 @@ git difftool  - will launch the visual merge tool
 
   git checkout -b updates  -- creates a new branch
 
-  
+git diff updates masters -- gives diff between 2 branches.
 
