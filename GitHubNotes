@@ -55,12 +55,20 @@ git help log -- help command
 
 git log --oneline --graph --decorate --all
 
-git config --global alias.hist "log --oneline --graph --decorate --all"
+git config --global alias.hist "log --oneline --graph --decorate --all" -- giving alias name for long commang
 
-git config --global --list
+git config --global --list - viewing all the global variables
 
 git hist
 
-git hist -- GitHubNotes
+git hist -- GitHubNotes -- extending the alias name
+
+ git mv renameexample demo -- renaming the file
+
+git rm demo  -- removing the file
+
+git add -A 
+
+git add -u 
 
 
