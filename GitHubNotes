@@ -83,3 +83,8 @@ git difftool  - will launch the visual merge tool
 
 git diff updates masters -- gives diff between 2 branches.
 
+git checkout master -- switches to branch master
+
+ git merge updates --- merges updates into merge branch
+
+ git branch -d updates -- deletes the branch which is already got integrated
