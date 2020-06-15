@@ -71,4 +71,15 @@ git add -A
 
 git add -u 
 
+git --- .ignore file will help to exclude files from being taken care by git.
+
+git diff 604f404 e87f27e
+
+git difftool  - will launch the visual merge tool
+
+ git branch
+
+  git checkout -b updates  -- creates a new branch
+
+  
 
