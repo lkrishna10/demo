@@ -90,3 +90,11 @@ git checkout master -- switches to branch master
  git merge updates --- merges updates into merge branch
 
  git branch -d updates -- deletes the branch which is already got integrated
+
+  git tag mytag   -- its equivelant to labels in vss
+
+   git tag --list -- display all tags
+
+    git tag -d mytab -- delete the tags
+
+
