@@ -97,4 +97,6 @@ git checkout master -- switches to branch master
 
     git tag -d mytab -- delete the tags
 
+git stash
 
+git stash pop   -- bring the stash file back and delet the stash
